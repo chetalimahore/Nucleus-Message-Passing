@@ -10,5 +10,7 @@ Nucleus(Kernel of OS) is the core of communication between different processes. 
 
 Implementation:
 Implemented system calls to handle the multiple messages sent by various processes. The system calls are defined in exceptionHandler.cc.
-Declared the data structures at the global level(i.e kernel level) to manage the communication. 
+Declared the data structures at the global level(i.e kernel level) in kernel.h file to manage the communication. 
+Made changes in addrspace.cc to handle the contiguous allocation of memory to processes. 
+Added new files i.e. buffer.h and buffer.cc for defining message structure.
 
